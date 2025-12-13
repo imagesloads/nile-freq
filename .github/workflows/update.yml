@@ -1,8 +1,11 @@
 name: Update Nilesat Frequencies
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: "0 2 * * *"   # مرة يوميًا (02:00 UTC)
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
